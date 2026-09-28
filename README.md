@@ -1,6 +1,6 @@
 # Game Of Life
-## COMP0210 2024-25 Assignment 2
-This codebase contains assignment 2 of the COMP0210 module, written in C++ using OpenMP and MPI. The main goal of the project is to implement Conway's Game of Life (GOL), with some examples given in this document. The project defines a grid class and GameOfLife written by the author, and implements two main features:
+## Assignment 2
+This codebase contains assignment 2 of the C++ module at UCL using OpenMP and MPI. The main goal of the project is to implement Conway's Game of Life (GOL), with some examples given in this document. The project defines a grid class and GameOfLife written by the author, and implements two main features:
 
 - Execute GOL with shared memory and distributed memory
 - Parallel still life search via distributed trials using MPI and asynchronous messaging
@@ -9,7 +9,7 @@ The code is designed with modularity in mind, and includes unit tests for core f
 
 ### Project structure
 ```
-COMPO210Assignment1/
+Assignment1/
 ├── app/                # Application code (GolSimulator, GolSimulatorMPI GolStillLifeFinder)
 ├── benchmark/          # The benchmark test for strong scaling and week scaling vary the numbers of threads
 ├── GolLib/             # Library code (GolGrid, GamOfLife, GameOfLifeMPI, DistributeInitialGrid and GameOfLifeStillLifes)
